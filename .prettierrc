@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "singleQuote": true,
+  "trailingComma": "none",
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "singleQuote": false
+      }
+    },
+    {
+      "files": ".*rc",
+      "options": {
+        "singleQuote": false,
+        "parser": "json"
+      }
+    }
+  ]
+}
